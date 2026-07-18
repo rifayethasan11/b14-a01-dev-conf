@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* container for layout */
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* uppercase class */
+.uppercase-text {
+  text-transform: uppercase;
+}
+
+/* button style */
+.common-btn {
+  color: white;
+  background-color: #1d4ed8;
+  font-size: 16px;
+  padding: 8px 30px;
+  border: 1px solid #1d4ed8;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.common-btn:hover {
+  background: #ffffff;
+  color: #1d4ed8;
+}
+
+/* Navbar Section */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #575757;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  color: #1d4ed8;
+}
+
+.navbar {
+  background-color: white;
+  padding: 20px 0;
+  top: 0;
+  z-index: 100;
+}
+
+/* Hero section */
+.hero-content {
+  margin: 200px;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+
+.hero-content h1,
+.hero-content p {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.hero-content-h1 {
+  font-weight: 500;
+  font-size: 70px;
+}
+
+.hero-button {
+  background-color: #1d4ed8;
+  color: white;
+  font-size: 20px;
+  border: 2px solid #1d4ed8;
+  border-radius: 8px;
+  padding: 15px 40px;
+  font-weight: 500;
+  margin-top: 200px;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background: #ffffff;
+  color: #1d4ed8;
+}
+
+.hero {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('./images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
