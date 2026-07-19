@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 /* container for layout */
@@ -99,7 +99,7 @@ nav ul li a:hover {
 .hero {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('./images/banner.jpg');
+    url("./images/banner.jpg");
   background-size: cover;
   background-position: center;
   height: 85vh;
@@ -263,7 +263,6 @@ nav ul li a:hover {
   color: #1d4ed8;
 }
 
-
 /* ai section styles */
 .faq-section {
   padding: 80px 20px;
@@ -307,4 +306,44 @@ nav ul li a:hover {
   border-color: #3b82f6;
   background: rgba(59, 130, 246, 0.08);
   transform: translateY(-3px);
+}
+
+/* footer styles */
+.footer-section {
+  margin-top: 100px;
+  background-color: #0d1b2a;
+}
+
+.footer__container {
+  padding: 56px 0;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.social__link a {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.copyright__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.copyright__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.copyright__container p {
+  color: #ffffff75;
 }
