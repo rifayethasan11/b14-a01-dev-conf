@@ -262,3 +262,49 @@ nav ul li a:hover {
   background-color: white;
   color: #1d4ed8;
 }
+
+
+/* ai section styles */
+.faq-section {
+  padding: 80px 20px;
+  background-color: #0d1b2a;
+  color: #ffffff;
+  margin-top: 130px;
+  border-radius: 12px;
+}
+
+.faq__title {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 50px;
+  color: #ffffff;
+}
+
+.faq__item {
+  max-width: 700px;
+  margin: 0 auto 20px;
+  padding: 20px 25px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.faq__item h3 {
+  margin-bottom: 10px;
+  color: #e2e8f0;
+  font-size: 18px;
+}
+
+.faq__item p {
+  color: #94a3b8;
+  font-size: 15px;
+}
+
+/* hover effect */
+.faq__item:hover {
+  border-color: #3b82f6;
+  background: rgba(59, 130, 246, 0.08);
+  transform: translateY(-3px);
+}
