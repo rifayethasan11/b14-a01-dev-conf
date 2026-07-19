@@ -15,7 +15,7 @@
   text-transform: uppercase;
 }
 
-/* button style */
+/* button styles */
 .common-btn {
   color: white;
   background-color: #1d4ed8;
@@ -30,7 +30,7 @@
   color: #1d4ed8;
 }
 
-/* Navbar Section */
+/* navbar styles */
 nav {
   display: flex;
   justify-content: space-between;
@@ -60,7 +60,7 @@ nav ul li a:hover {
   z-index: 100;
 }
 
-/* Hero section */
+/* hero styles */
 .hero-content {
   margin: 200px;
   text-align: center;
@@ -108,4 +108,157 @@ nav ul li a:hover {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+}
+
+/* speakers card styles  */
+.meet-the-speakers {
+  text-align: center;
+  margin-bottom: 56px;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.speakers-card {
+  margin-top: 56px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-bottom: 56px;
+}
+.card {
+  overflow: hidden;
+  border: 1px solid #575757;
+  border-radius: 8px;
+  text-align: start;
+}
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.speaker-tag {
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1d4ed8;
+}
+
+.speaker-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+.speaker-role {
+  color: #575757;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.card h2,
+.card p {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+/* your spot styles */
+.secure-your-spot {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.secure-your-spot-p {
+  text-align: center;
+  font-size: 16px;
+  color: #575757;
+  padding-bottom: 10px;
+}
+
+.pricing-section {
+  margin-bottom: 250px;
+  height: 50vh;
+}
+
+.pricing-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.bullets li::marker {
+  color: #1d4ed8;
+  font-size: 1rem;
+}
+
+.p-card {
+  border: 1px solid #575757;
+  border-radius: 8px;
+  padding: 20px;
+  padding: 50px;
+}
+.pro-card {
+  background-color: #0d1b2a;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 20px;
+  padding: 50px;
+}
+
+.pro-p {
+  color: #93c5fd;
+}
+
+.card-price {
+  font-size: 48px;
+}
+.card-packages {
+  margin: 15px 0;
+}
+.card-person {
+  color: #575757;
+  font-size: 14px;
+}
+
+.card-content {
+  margin: 15px 0;
+  padding-bottom: 20px;
+  line-height: 2rem;
+}
+.pricing-btn {
+  background-color: white;
+  color: #1d4ed8;
+  display: block;
+  margin: 20px auto 0;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 80px;
+  border: 1px solid #1d4ed8;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.pricing-btn:hover {
+  background-color: #1d4ed8;
+  color: white;
+}
+.pro-pricing-btn {
+  background-color: #1d4ed8;
+  color: white;
+  display: block;
+  margin: 20px auto 0;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 80px;
+  border: 1px solid #1d4ed8;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.pro-pricing-btn:hover {
+  background-color: white;
+  color: #1d4ed8;
 }
